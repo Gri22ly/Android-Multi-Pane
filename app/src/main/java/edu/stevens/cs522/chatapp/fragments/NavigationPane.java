@@ -31,9 +31,6 @@ public class NavigationPane extends Fragment {
     private ListView crList;
     private SimpleCursorAdapter sca;
 
-    private boolean isChange;
-    private int a;
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
