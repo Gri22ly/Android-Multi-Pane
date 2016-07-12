@@ -24,6 +24,9 @@ import edu.stevens.cs522.chatapp.entities.ChatRoom;
 import edu.stevens.cs522.chatapp.managers.ChatRoomManager;
 import edu.stevens.cs522.chatapp.managers.IEntityCreator;
 
+/**
+ * Created by FEIFAN on 2016/4/3.
+ */
 public class NavigationPane extends Fragment {
 
     public static final int NAVI_LOADER = 1;
@@ -31,6 +34,7 @@ public class NavigationPane extends Fragment {
     private ListView crList;
     private SimpleCursorAdapter sca;
 
+    private boolean isChange;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
