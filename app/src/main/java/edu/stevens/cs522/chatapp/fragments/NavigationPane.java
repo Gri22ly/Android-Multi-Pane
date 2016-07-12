@@ -32,6 +32,7 @@ public class NavigationPane extends Fragment {
     private SimpleCursorAdapter sca;
 
     private boolean isChange;
+    private int a;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
