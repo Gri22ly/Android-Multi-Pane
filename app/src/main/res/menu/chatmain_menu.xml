@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_chatroom"
+        app:showAsAction="ifRoom"
+        android:title="@string/add_chatroom"/>
+    <!--<item-->
+        <!--android:id="@+id/show_client"-->
+        <!--app:showAsAction="ifRoom"-->
+        <!--android:title="@string/client_list" />-->
+    <item
+        android:id = "@+id/post_a_message"
+        app:showAsAction="ifRoom"
+        android:title="@string/post_a_message"/>
+
+    <!--<item-->
+        <!--android:id="@+id/name_setting"-->
+        <!--app:showAsAction="ifRoom"-->
+        <!--android:title="@string/setting" />-->
+</menu>

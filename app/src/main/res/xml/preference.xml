@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Client Setting">
+        <EditTextPreference
+            android:dialogTitle="Please enter your name: "
+            android:key="clientName"
+            android:title="Change User Name" />
+
+        <EditTextPreference
+            android:dialogTitle="Register service URL: "
+            android:key="URL"
+            android:title="Change web service URL"
+            android:defaultValue="http://10.0.2.2:8080/chat"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
